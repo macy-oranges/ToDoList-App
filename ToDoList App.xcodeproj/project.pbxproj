@@ -14,6 +14,7 @@
 		BDE7C87A2C595116004E886A /* ToDoList_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE7C8792C595116004E886A /* ToDoList_AppTests.swift */; };
 		BDE7C8842C595116004E886A /* ToDoList_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE7C8832C595116004E886A /* ToDoList_AppUITests.swift */; };
 		BDE7C8862C595116004E886A /* ToDoList_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE7C8852C595116004E886A /* ToDoList_AppUITestsLaunchTests.swift */; };
+		BDE7C8932C595315004E886A /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE7C8922C595315004E886A /* NewToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BDE7C87F2C595116004E886A /* ToDoList AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ToDoList AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE7C8832C595116004E886A /* ToDoList_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList_AppUITests.swift; sourceTree = "<group>"; };
 		BDE7C8852C595116004E886A /* ToDoList_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDE7C8922C595315004E886A /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				BDE7C8682C595115004E886A /* ToDoList_AppApp.swift */,
 				BDE7C86A2C595115004E886A /* ContentView.swift */,
+				BDE7C8922C595315004E886A /* NewToDoView.swift */,
 				BDE7C86C2C595116004E886A /* Assets.xcassets */,
 				BDE7C86E2C595116004E886A /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDE7C8932C595315004E886A /* NewToDoView.swift in Sources */,
 				BDE7C86B2C595115004E886A /* ContentView.swift in Sources */,
 				BDE7C8692C595115004E886A /* ToDoList_AppApp.swift in Sources */,
 			);
